@@ -5,78 +5,142 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>flickCounter プライバシーポリシー</title>
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",sans-serif;
-         margin:0;background:#fff;color:#111;line-height:1.75}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,
+      "Hiragino Kaku Gothic ProN","Noto Sans JP","Yu Gothic",sans-serif;
+      margin:0;background:#fff;color:#111;line-height:1.75
+    }
     .wrap{max-width:860px;margin:0 auto;padding:28px 18px}
     h1{font-size:22px;margin:0 0 10px}
     h2{font-size:18px;margin:22px 0 8px}
     p,li{font-size:15px}
     .muted{color:#555;font-size:13px}
     .box{border:1px solid #e6e6e6;border-radius:12px;padding:14px 16px;background:#fafafa}
+    .note{border-left:3px solid #ddd;padding:10px 12px;background:#fcfcfc;border-radius:8px}
     a{color:#0a58ca;text-decoration:none}
     a:hover{text-decoration:underline}
+    code{background:#f2f2f2;padding:0 6px;border-radius:6px}
   </style>
 </head>
 <body>
   <div class="wrap">
     <h1>プライバシーポリシー</h1>
-    <p class="muted">対象アプリ：flickCounter / 最終更新日：2026-01-12</p>
+    <p class="muted">対象アプリ：flickCounter / 最終更新日：2026-1-22 / v1.02</p>
 
     <div class="box">
       <p><strong>要約</strong></p>
       <ul>
         <li>本アプリは、セッションやボタン設定などのデータを主に<strong>端末内（ローカル）</strong>に保存します。</li>
-        <li>本バージョンでは、開発者がユーザーの個人情報を<strong>収集・送信・販売</strong>することはありません。</li>
-        <li>有料機能（Pro）は Apple のアプリ内課金で提供され、決済は Apple が処理します。</li>
+        <li>本アプリには広告（Google AdMob）を表示する場合があり、広告配信・計測のために<strong>第三者（Google）により情報が取得・利用される</strong>ことがあります。</li>
+        <li>広告の最適化等で「トラッキング」に該当する場合、iOSの仕組み（ATT）に基づき<strong>ユーザーの許可</strong>を求めます（許可しない場合でも広告は表示されることがあります）。</li>
+        <li>有料機能（Pro）はAppleのアプリ内課金で提供され、決済はAppleが処理します。</li>
       </ul>
     </div>
 
-    <h2>1. 取得する情報</h2>
+    <h2>1. 本ポリシーの適用範囲</h2>
+    <p>本ポリシーは、本アプリの利用に関して当方（開発者）が取り扱う情報、および本アプリに統合された第三者サービス（広告配信、同意管理、広告計測等）により取得・利用される可能性のある情報に適用されます。</p>
+
+    <h2>2. 取得する情報</h2>
+
+    <h3 class="muted" style="font-size:14px;margin:10px 0 4px;">2.1 端末内（ローカル）に保存される情報</h3>
     <p>本アプリは、主に以下の情報を<strong>端末内</strong>に保存します。</p>
     <ul>
       <li>セッション（カウント結果、回転数、メモ相当）</li>
-      <li>ボタン設定（名称、確率関連設定、テンプレ、フォルダ）</li>
+      <li>ボタン設定（名称、確率・推測に関する入力値、テンプレ等）</li>
       <li>アプリ表示設定（テーマ等の選好）</li>
     </ul>
-    <p>これらはアプリ機能提供のために端末内で扱われ、開発者のサーバーへ送信されません。</p>
+    <p>これらはアプリ機能提供のために端末内で扱われ、当方が管理するサーバーへ送信されません。</p>
 
-    <h2>2. 収集しない情報</h2>
-    <p>本バージョンでは、開発者は以下の情報を収集しません。</p>
+    <h3 class="muted" style="font-size:14px;margin:10px 0 4px;">2.2 広告配信・計測に伴い第三者（Google）により取得・利用され得る情報</h3>
+    <p>本アプリは広告表示のため、Googleの広告配信サービス（AdMob）および関連SDKを利用します。これにより、広告配信・表示・不正防止・計測の目的で、以下の情報が取得・利用される場合があります。</p>
     <ul>
-      <li>氏名、メールアドレス、住所、電話番号等の個人情報</li>
-      <li>位置情報、連絡先、写真、マイク等の機微情報</li>
-      <li>広告識別子（IDFA）を用いたトラッキング</li>
-      <li>解析・広告目的の第三者へのデータ共有</li>
+      <li>端末情報（機種、OSバージョン、言語設定、タイムゾーン等）</li>
+      <li>広告の表示・クリック等のイベント情報（広告パフォーマンス情報）</li>
+      <li>IPアドレス等のネットワーク情報（国・地域レベルの推定に用いられる場合があります）</li>
+      <li>広告関連の識別子（例：デバイス識別子・広告識別子等。取得可否は端末設定・同意状況・SDK仕様により変動します）</li>
+      <li>不正防止・セキュリティ目的の情報</li>
+    </ul>
+    <p class="note"><strong>補足：</strong>上記は一般的な例示です。実際に取得・利用される情報は、ユーザーの端末設定（トラッキング許可等）、同意状況、広告配信設定、SDKの仕様・更新等により変動します。</p>
+
+    <h3 class="muted" style="font-size:14px;margin:10px 0 4px;">2.3 診断情報（クラッシュ・品質改善）</h3>
+    <p>本アプリの品質改善や不具合解析のため、クラッシュログ等の診断情報がOSや関連コンポーネントにより収集される場合があります。</p>
+
+    <h2>3. 利用目的</h2>
+    <p>取得した情報は、以下の目的で利用されます。</p>
+    <ol>
+      <li>本アプリの機能提供およびユーザー体験の向上</li>
+      <li>利用状況の把握、品質改善、障害解析（クラッシュ対応等）</li>
+      <li>不正行為の防止、セキュリティ確保</li>
+      <li>広告の配信、表示回数等の計測、広告パフォーマンスの改善</li>
+      <li>法令等に基づく対応</li>
+    </ol>
+
+    <h2>4. 第三者サービス（広告・同意管理・広告計測）</h2>
+    <p>本アプリでは、以下の第三者サービスを利用します。第三者サービス事業者は各社のプライバシーポリシーに基づき情報を取り扱います。</p>
+    <ul>
+      <li><strong>Google Mobile Ads（AdMob）</strong>：広告配信・表示・計測</li>
+      <li><strong>Google User Messaging Platform（UMP）</strong>：広告に関する同意取得/同意管理（必要な地域や設定の場合）</li>
+      <li><strong>Apple SKAdNetwork</strong>：広告計測（プライバシー保護型のアトリビューション）</li>
     </ul>
 
-    <h2>3. アプリ内課金（Pro）について</h2>
-    <p>本アプリの有料機能（Pro）は Apple のアプリ内課金を利用します。購入・請求・解約は Apple の仕組みにより管理されます。</p>
+    <p>参考（第三者のポリシー等）：</p>
     <ul>
-      <li>開発者がクレジットカード情報等の決済情報を取得することはありません。</li>
+      <li>Google プライバシーポリシー：
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>
+      </li>
+      <li>Google 広告に関する説明：
+        <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">https://policies.google.com/technologies/ads</a>
+      </li>
+    </ul>
+
+    <h2>5. トラッキング（ATT）について</h2>
+    <p>本アプリは、広告の最適化等の目的で、Appleの定義する「トラッキング」に該当する処理を行う場合があります。その場合、iOSの仕組み（App Tracking Transparency：ATT）に基づき、ユーザーに許可を求めます。</p>
+    <ul>
+      <li>ユーザーが許可しない場合でも広告は表示されることがありますが、パーソナライズされない広告（コンテキスト広告等）になる場合があります。</li>
+      <li>トラッキング許可は、iOSの「設定」からいつでも変更できます（例：<code>設定 ＞ プライバシーとセキュリティ ＞ トラッキング</code>）。</li>
+    </ul>
+
+    <h2>6. 同意管理（UMP）について</h2>
+    <p>本アプリは、地域や法令要件等に応じて、広告に関する同意の取得・管理を行う場合があります（Google UMP）。同意状況により、広告の種類や利用される情報が変化することがあります。</p>
+
+    <h2>7. アプリ内課金（Pro）について</h2>
+    <p>本アプリの有料機能（Pro）はAppleのアプリ内課金を利用します。購入・請求・解約はAppleの仕組みにより管理されます。</p>
+    <ul>
+      <li>当方がクレジットカード情報等の決済情報を取得することはありません。</li>
       <li>購入状態の判定のため、端末上で取引情報（例：購入状態）を参照する場合があります。</li>
     </ul>
 
-    <h2>4. 外部送信・第三者提供</h2>
-    <p>本バージョンでは、開発者が管理するサーバーへの送信や、広告・解析等の第三者へのデータ提供は行いません。</p>
-    <p class="muted">将来のアップデートで広告SDKや解析ツール等を導入する場合は、本ポリシーを更新し、App Store Connect の「アプリのプライバシー」表示も更新します。</p>
+    <h2>8. 外部送信・第三者提供</h2>
+    <p>当方は、ユーザーの端末内データ（セッションやボタン設定等）を当方が管理するサーバーへ送信しません。</p>
+    <p>一方で、広告配信・同意管理・広告計測のために、本アプリに統合された第三者サービス（第4項）により、情報が取得・送信・利用される場合があります。</p>
 
-    <h2>5. データの保持期間と削除方法</h2>
+    <h2>9. データの保持期間と削除方法</h2>
     <p>端末内データは、ユーザーが削除するまで保持されます。削除方法は以下のとおりです。</p>
     <ul>
       <li>アプリ内に削除機能がある場合：アプリの削除操作を実行</li>
       <li>アプリ内に削除機能がない場合：アプリをアンインストール（端末から削除）</li>
     </ul>
+    <p>第三者サービスにより取得・保存される情報の保持期間は、各社のポリシーに従います。</p>
 
-    <h2>6. お問い合わせ</h2>
-    <p>プライバシーに関するお問い合わせは以下までご連絡ください。</p>
-    <ul>
-      <li>連絡先：<strong>rubiscowasabi@gmail.com</strong></li>
-    </ul>
+    <h2>10. 国外移転（国際的なデータ移転）について</h2>
+    <p>第三者サービス（Google等）を利用する場合、情報が国外のサーバーで処理・保存される可能性があります。詳細は各社のプライバシーポリシーをご確認ください。</p>
 
-    <h2>7. 改定</h2>
+    <h2>11. セキュリティ</h2>
+    <p>当方は、情報の漏えい、滅失、毀損等を防止するため、合理的な安全管理措置を講じます。</p>
+
+    <h2>12. 未成年の利用</h2>
+    <p>未成年のユーザーは、保護者の同意のもとで本アプリをご利用ください。</p>
+
+    <h2>13. 改定</h2>
     <p>本ポリシーは、法令・機能変更等により改定することがあります。改定後は本ページにて公表します。</p>
 
-    <p class="muted">このプライバシーポリシーは、Appleの審査ガイドラインに基づき、アプリが収集するデータ・第三者共有・保持/削除手段等を明示する目的で作成しています。 :contentReference[oaicite:5]{index=5}</p>
+    <h2>14. お問い合わせ</h2>
+    <p>プライバシーに関するお問い合わせは以下までご連絡ください。</p>
+    <ul>
+      <li>連絡先：<strong>flickcounter@gmail.com</strong></li>
+    </ul>
+
+    <p class="muted">本ページは、アプリの収集データ・第三者共有・保持/削除手段等を明示し、ユーザーに分かりやすく説明する目的で作成しています。</p>
   </div>
 </body>
 </html>
